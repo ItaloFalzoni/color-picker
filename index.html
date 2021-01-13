@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="./style.css">
+
+  <title>Trabalho prático do módulo 1</title>
+</head>
+<body>
+  <div class="container">
+    <div class="content">
+      <div class="controls">
+        <div class="column">
+          <p class="red">Vermelho (Red)</p>
+          <p class="green">Verde (Green)</p>
+          <p class="blue">Azul (Blue)</p>
+        </div>
+
+        <div class="column">
+          <input class="red" type="range" min="0" max="255" value="255">
+          <input class="green" type="range" min="0" max="255" value="255">
+          <input class="blue" type="range" min="0" max="255" value="255">
+        </div>
+
+        <div class="column">
+          <input class="red" type="text" name="red" id="textRed" value="255" disabled>
+          <input class="green" type="text" name="green" id="textGreen" value="255" disabled>
+          <input class="blue" type="text" name="blue" id="textBlue" value="255" disabled>
+        </div>
+      </div>
+    
+      <p class="text">rgb(255, 255, 255)</p>
+      <div class="box"></div>
+    </div>
+  </div>
+  <script src="./script.js"></script>
+</body>
+</html>
